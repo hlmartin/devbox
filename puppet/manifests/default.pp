@@ -23,6 +23,11 @@ node default {
     require        => Class['docker']
   }
 
+  ssh_keygen { 'vagrant':
+    comment => 'vagrant@devbox',
+    bits    => '4096'
+  }
+
   class { 'ohmyzsh': } ->
   ohmyzsh::install { ['root', 'vagrant']: } ->
   ohmyzsh::plugins {
