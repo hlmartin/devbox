@@ -1,0 +1,10 @@
+---
+git::configs:
+  user.name: Your Name
+  user.email: email@example.com
+  fetch.prune:
+    value: true
+    scope: global
+  push.default:
+    value: simple
+    scope: global

@@ -1,0 +1,11 @@
+forge "https://forge.puppetlabs.com"
+
+mod 'puppetlabs-git'
+mod 'garethr-docker'
+mod 'willdurand-nodejs'
+mod 'saz-vim'
+mod 'acme-ohmyzsh'
+mod 'stankevich-python'
+mod 'jdowning-awscli'
+mod 'dhoppe-screen'
+mod 'lwf-remote_file'
