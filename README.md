@@ -8,10 +8,11 @@ A simple, portable Vagrant box that can reasonably easily be set up on any envir
 2. Download and install [VirtualBox](https://www.virtualbox.org/) - you probably need at least version 5.0+ for Ubuntu 16.4 to work.
 3. Install the following vagrant plugins:
 
-```
-vagrant plugin install vagrant-vbguest
-vagrant plugin install vagrant-librarian-puppet
-```
+  ```
+  vagrant plugin install vagrant-vbguest
+  vagrant plugin install vagrant-librarian-puppet
+  ```
+
 4. `vagrant up`, and go get a coffee while things download. ☕
 
 ## What it comes with
