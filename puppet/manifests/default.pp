@@ -4,7 +4,10 @@ node default {
   class { 'awscli': }
   class { 'git': }
   class { 'screen': }
-  class { 'vim': }
+
+  class { 'vim':
+    opt_misc => ['hlsearch', 'showcmd', 'showmatch', 'ignorecase', 'smartcase', 'incsearch', 'autowrite', 'hidden', 'tabstop=2', 'shiftwidth=2', 'softtabstop=2', 'expandtab']
+  }
 
   class { 'nodejs':
     version => 'stable'
